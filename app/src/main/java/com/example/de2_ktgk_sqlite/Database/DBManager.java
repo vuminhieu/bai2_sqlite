@@ -60,12 +60,12 @@ public class DBManager extends SQLiteOpenHelper {
 
         if (cursor.moveToFirst()) {
             do {
-                BaiHat student = new BaiHat();
-                student.setMid(cursor.getInt(0));
-                student.setmName(cursor.getString(1));
-                student.setmSinger(cursor.getString(2));
-                student.setmTime(cursor.getString(3));
-                Listsong.add(student);
+                BaiHat baiHat = new BaiHat();
+                baiHat.setMid(cursor.getInt(0));
+                baiHat.setmName(cursor.getString(1));
+                baiHat.setmSinger(cursor.getString(2));
+                baiHat.setmTime(cursor.getString(3));
+                Listsong.add(baiHat);
             }
             while (cursor.moveToNext());
         }
