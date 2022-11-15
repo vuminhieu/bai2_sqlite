@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/tv_ten"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="Tên bài Hát"
+            android:textColor="@color/teal_700"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời gian"
+                android:textColor="#FF0000"
+                android:layout_marginBottom="7dp" />
+
+            <TextView
+                android:id="@+id/tv_ca_si"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ca sĩ"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
