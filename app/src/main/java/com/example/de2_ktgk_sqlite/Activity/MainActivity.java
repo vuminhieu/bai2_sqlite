@@ -137,7 +137,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         buttonSua.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -156,6 +155,5 @@ public class MainActivity extends AppCompatActivity {
         });
         dialog.show();
     }
-
 
 }

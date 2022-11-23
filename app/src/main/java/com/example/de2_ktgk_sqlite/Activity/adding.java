@@ -35,7 +35,6 @@ public class adding extends AppCompatActivity {
         String singger = editTextCasi.getText().toString().trim();
         String time = editTextThoiGian.getText().toString().trim();
         Intent intent = new Intent(adding.this, MainActivity.class);
-//                intent.putExtra("key_id", id);
         intent.putExtra("key_ten", name);
         intent.putExtra("key_casi", singger);
         intent.putExtra("key_thoigian", time);
